@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Faculty";
+  src: url(../fonts/faculty-glyphic-v1-latin-regular.woff2) format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Faculty";
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+#menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/menu.jpg");
+}
+
+.menu-div {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(11, 11, 99, 0.8);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-div h2 {
+  font-size: 24px;
+}
+
+a {
+  font-size: 18px;
+}
+
+ul a:hover {
+  color: chartreuse;
+}
+
+#Barcelona {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/barselona.jpg");
+}
+
+#Madrid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/madrid.jpg");
+}
+
+#Tokio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/tokio.jpg");
+}
+
+#Kattegat {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/kattegat.jpg");
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 15px;
+  background-color: rgba(11, 11, 99, 0.5);
+
+  padding: 12px 24px;
+  border: solid 2px rgb(4, 4, 39);
+  border-radius: 8px;
+}
+
+.home {
+  color: red;
+}
+
+.home:hover {
+  color: brown;
+}
